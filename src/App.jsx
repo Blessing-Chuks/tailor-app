@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 import AboutUs from "./components/AboutUs";
 import Contact from "./components/Contact";
 import Testimonial from "./components/Testimonial";
-import CustomTailoring from "./components/Customtailoring";
+import CustomTailoring from "./components/CustomTailoring";
 import BridalOccasion from "./components/BridalOccasion";
 import SpecialtyFabrics from "./components/SpecialtyFabrics";
 import PriceAppointment from "./components/PriceAppointment";
