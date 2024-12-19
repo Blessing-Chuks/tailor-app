@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import "../assets/css/repairs.css";
+import "../assets/css/Repairs.css";
 
 const RepairAndRestoration = () => {
   return (
