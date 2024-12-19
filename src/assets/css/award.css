@@ -1,0 +1,112 @@
+.awards-container {
+  margin-left: 20rem;
+  padding: 20px;
+}
+
+/* Main Section Styles */
+.awards-section {
+  padding: 50px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.awards-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+/* Award Item Styles */
+.award-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #000;
+}
+
+.award-text h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.award-text p {
+  font-size: 1rem;
+}
+
+.award-link p {
+  text-decoration: none;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Media Queries for Mobile and Tablet Responsiveness */
+@media (max-width: 768px) {
+  /* Adjust the awards container for mobile screens */
+  .awards-container {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  /* Adjust the section title */
+  .awards-section h2 {
+    font-size: 2rem; /* Smaller font size for smaller screens */
+    text-align: center; /* Center the title */
+  }
+
+  /* Award items stack vertically for mobile */
+  .award-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 0;
+  }
+
+  /* Adjust award text size for smaller screens */
+  .award-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .award-text p {
+    font-size: 0.9rem;
+  }
+
+  /* Adjust the image and link position for mobile */
+  .award-link {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .award-link img {
+    width: 30px; /* Adjust the size of the image */
+    margin-right: 10px; /* Space between image and text */
+  }
+
+  .award-link p {
+    font-size: 1rem;
+  }
+}
+
+/* Additional Styles for very small screens (extra small mobiles) */
+@media (max-width: 480px) {
+  .awards-section h2 {
+    font-size: 1.8rem; /* Even smaller font for extra small screens */
+  }
+
+  .award-item {
+    padding: 10px 0; /* Reduce padding for extra small screens */
+  }
+
+  .award-text h3 {
+    font-size: 1rem; /* Smaller font size */
+  }
+
+  .award-text p {
+    font-size: 0.8rem; /* Smaller font size for description */
+  }
+
+  .award-link p {
+    font-size: 0.9rem; /* Smaller font size for the link text */
+  }
+}

@@ -1,0 +1,28 @@
+.bridal-section {
+  background-color: #fdf5f3;
+  padding: 50px 20px;
+}
+
+.bridal-section h2,
+.bridal-section h3,
+.bridal-section h4 {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.bridal-section p {
+  line-height: 1.8;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+img {
+  border-radius: 10px;
+}

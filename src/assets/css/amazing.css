@@ -1,0 +1,71 @@
+/* Overall section styling */
+.create-amazing-website {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #fff;
+}
+
+/* Text content styling */
+.content {
+  /* max-width: 50%; */
+  margin-left: 8rem;
+  margin-bottom: 4rem;
+}
+
+.hedi {
+  text-decoration: underline;
+}
+.content h2 {
+  font-size: 36px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.content .highlight {
+  color: #f54b25;
+  font-weight: bold;
+}
+
+.content .bold {
+  font-weight: bold;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: bold;
+}
+
+/* Image container */
+.image-container {
+  /* max-width: 40%; */
+  width: 300px;
+  margin-right: 9rem;
+  /* justify-content: space-around; */
+  margin-bottom: 4rem;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .create-amazing-website {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content {
+    max-width: 100%;
+  }
+
+  .image-container {
+    max-width: 80%;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,31 @@
+.repair-restoration-section {
+  background-color: #f8f9fa;
+  padding: 50px 20px;
+}
+
+.repair-restoration-section h2,
+.repair-restoration-section p {
+  font-family: 'Poppins', sans-serif;
+  color: #343a40;
+}
+
+.repair-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 1px solid #ddd;
+}
+
+.repair-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.repair-card .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.repair-card .card-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}

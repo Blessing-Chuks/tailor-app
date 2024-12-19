@@ -1,0 +1,51 @@
+.chef-section {
+  position: relative;
+  background-image: url("https://res.cloudinary.com/dnb6x004q/image/upload/v1727443158/Tailor-Design/Rectangle_4001_1_upwjsw.png");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 5rem;
+  padding: 5rem;
+  color: white;
+}
+
+.hero-content {
+  text-align: center;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* .hero-button {
+  background-color: #ff5a5f;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-button span {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.hero-section::before {
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+} */

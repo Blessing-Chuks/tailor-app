@@ -1,0 +1,28 @@
+.testimonial-section {
+  background-color: #f8f9fa;
+  padding: 50px 20px;
+}
+
+.testimonial-card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+}

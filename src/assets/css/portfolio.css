@@ -1,0 +1,35 @@
+.portfolio-section {
+  background-color: #f8f9fa;
+  padding: 50px 20px;
+}
+
+.portfolio-section h2,
+.portfolio-section p {
+  font-family: 'Poppins', sans-serif;
+  color: #343a40;
+}
+
+.portfolio-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-card img {
+  border-radius: 5px 5px 0 0;
+  object-fit: cover;
+}
+
+.portfolio-card .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.portfolio-card .card-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}

@@ -1,0 +1,62 @@
+/* .hero-section {
+  height: 100vh;
+  background: url("https://res.cloudinary.com/dnb6x004q/image/upload/v1727337569/Tailor-Design/Rectangle_3992_kll4ui.png");
+  justify-content: center;
+  text-align: center;
+  
+
+}
+
+.hero-section {
+  display: flex;
+  align-items: flex-start;
+}
+
+.hero-heading {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.hero-heading .orange-text {
+  color: #ff5722;
+}
+.headtext {
+  margin-bottom: 10rem;
+  margin-left: 9rem;
+}
+
+.hero-subheading {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 0;
+  margin-left: 7rem;
+}
+
+.sub-image {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+}
+.dope {
+  margin-right: 5rem;
+} */
+
+ .hero-section {
+  /* height: 100vh; */
+  background: url("https://res.cloudinary.com/dnb6x004q/image/upload/v1727337569/Tailor-Design/Rectangle_3992_kll4ui.png");
+  justify-content: center;
+  text-align: center;
+ }

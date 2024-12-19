@@ -1,0 +1,18 @@
+.footer {
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.social-icons {
+  margin: 20px 0;
+}
+
+.social-link {
+  margin: 0 10px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #007bff;
+}

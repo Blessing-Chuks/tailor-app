@@ -1,0 +1,169 @@
+/* Overall section styling */
+.latest-works {
+  padding: 40px;
+  background-color: #fff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Title styling */
+.title-section .title {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.title {
+  margin-left: 1rem;
+  text-decoration: underline;
+}
+
+.title-section .highlight {
+  color: #f54b25;
+}
+
+.title-section .description {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Grid for work items */
+.works-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.work-item {
+  width: 300px;
+  text-align: center;
+}
+
+.work-item img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.work-item p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  /* Tablet and smaller */
+  .title {
+    margin-left: 0;
+    font-size: 30px;
+  }
+
+  .title-section .description {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .works-grid {
+    gap: 10px;
+  }
+
+  .work-item {
+    width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Mobile */
+  .works-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work-item {
+    width: 100%; /* Full width on mobile */
+    max-width: 300px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .title-section .description {
+    font-size: 12px;
+  }
+}
+
+/* .latest-works {
+  padding: 40px;
+  background-color: #fff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.title-section .title {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.title{
+    margin-left: 10rem;
+    text-decoration: underline;
+}
+
+.title-section .highlight {
+  color: #f54b25;
+}
+
+.title-section .description {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-section{
+    display: flex;
+}
+.works-grid {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 8rem;
+}
+
+.work-item {
+  width: 300px;
+  text-align: center;
+}
+
+.work-item img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.work-item p {
+  font-size: 14px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .works-grid {
+    flex-direction: column;
+  }
+} */

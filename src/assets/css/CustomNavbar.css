@@ -1,0 +1,62 @@
+/* CustomNavbar.css */
+
+/* Navbar background and text color */
+.navbar {
+  background-color: #f8f9fa !important; /* Light background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Navbar brand (logo/text) */
+.navbar-brand {
+  color: #0056b3 !important; /* Change the color to a professional blue */
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Navbar links */
+.nav-link {
+  color: #333 !important; /* Dark gray color */
+  font-size: 16px;
+  padding: 0.5rem 1.2rem;
+  text-transform: uppercase; /* Uppercase for all navbar items */
+  font-weight: 500;
+}
+
+/* Navbar links hover effect */
+.nav-link:hover {
+  color: #0056b3 !important; /* Change color on hover */
+  background-color: #e2e6ea; /* Add a background highlight on hover */
+  border-radius: 5px; /* Smooth corners on hover */
+}
+
+/* Dropdown menu styling */
+.navbar-nav .nav-item .nav-link {
+  padding-left: 1rem;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+  color: #0056b3 !important;
+}
+
+/* Dropdown styling */
+.navbar-nav .nav-item .dropdown-menu {
+  background-color: #f8f9fa; /* Light background for dropdown */
+  border: 1px solid #ddd; /* Soft border */
+}
+
+.nav-dropdown-item:hover {
+  background-color: #007bff; /* Highlight dropdown item */
+  color: white;
+}
+
+/* Customize Navbar Toggle Button (Hamburger) */
+.navbar-toggler {
+  border-color: #0056b3;
+}
+
+/* Adjust navbar on small screens */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #f8f9fa; /* Make the collapsed navbar background consistent */
+  }
+}

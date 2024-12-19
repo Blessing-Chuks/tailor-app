@@ -1,0 +1,23 @@
+.price-appointment-section {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+}
+
+.price-appointment-section h2,
+.price-appointment-section h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.price-appointment-section p {
+  line-height: 1.8;
+}
+
+.table {
+  font-size: 1rem;
+  text-align: center;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+}

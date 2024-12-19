@@ -1,0 +1,23 @@
+.blog-details-section {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+}
+
+.blog-details-section h2 {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.blog-details-section p,
+.blog-details-section ul {
+  line-height: 1.8;
+  font-size: 1rem;
+  color: #555;
+}
+
+.blog-details-section ul {
+  list-style: disc;
+  margin-left: 20px;
+}

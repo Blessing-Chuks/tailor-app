@@ -1,0 +1,28 @@
+.specialty-section {
+  background-color: orange;
+  padding: 50px 20px;
+}
+
+.specialty-section h2,
+.specialty-section h3,
+.specialty-section h4 {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.specialty-section p {
+  line-height: 1.8;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+img {
+  border-radius: 10px;
+}
